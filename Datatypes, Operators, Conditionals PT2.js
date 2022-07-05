@@ -94,11 +94,22 @@ console.log(Number.isInteger(ex7Given));
 
 let percentage = 20;
 percentage = percentage/100;
-let givenNumber8 = 100;
-
+let givenNumber8 = 80;
+percentOfGiven = percentage * givenNumber8;
+console.log(`${(100*percentage)} percent of ${givenNumber8} is equal to ${percentOfGiven}`);
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
+let usersInput = 333;
+function isOdd(usersInput){return usersInput % 2;}
+    if(isOdd(usersInput) !== 0){
+        console.log("Your number is even.");
+    }else if (isOdd(usersInput) === 0){
+        console.log("Your number is odd.");
+    }else{
+        console.log("Not a valid Number.");
+    }
+    
+        
 
-/* WRITE YOUR ANSWER HERE */
