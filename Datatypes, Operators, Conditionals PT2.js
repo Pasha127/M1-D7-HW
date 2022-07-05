@@ -73,20 +73,29 @@ console.log(`The average of ${num01} & ${num02} is ${average}.`);
  Write a piece of code for finding the longest of two given strings.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let ex6Given1 = "hi";
+let ex6Given2 = "hello";
+/* let longerString = (length(ex6Given1) >= length(ex6Given2)) ? ex6Given1:ex6Given2; */
+let longerString = (ex6Given1.length>= ex6Given2.length) ? ex6Given1:ex6Given2;
+console.log(`The longer sting is ${longerString}.`);
+
 
 /*EX 7
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let ex7Given = 123.4;
+console.log(Number.isInteger(ex7Given));
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
  (Ex.: the 20% of 400 is 80)
 */
 
-/* WRITE YOUR ANSWER HERE */
+let percentage = 20;
+percentage = percentage/100;
+let givenNumber8 = 100;
+
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.

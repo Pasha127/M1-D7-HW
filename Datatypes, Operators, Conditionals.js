@@ -66,7 +66,7 @@ let name2 = "John";
 let nameDifference = (name1 != name2);
 console.log(nameDifference);
 //Pt 2?
-
+console.log(name2.toLowerCase() === name1.toLocaleLowerCase());
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
