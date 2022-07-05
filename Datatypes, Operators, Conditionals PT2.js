@@ -49,13 +49,25 @@ console.log("There "+ "are", exercise3Var, "strings in this log.");
  Display the result in the console.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let exFour1 = 3;
+let exFour2 = 2;
+let exFour3 = 1;
+
+if(exFour1>=exFour2){
+    if(exFour2>= exFour3){
+        console.log(exFour1,exFour2,exFour3);
+    }
+    //to be continued...
+}
 
 /*EX 5
  Write a piece of code for finding the average of two given integers.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let num01 = 1;
+let num02 = 3;
+let average = ((num01+num02)/2);
+console.log(`The average of ${num01} & ${num02} is ${average}.`);
 
 /*EX 6
  Write a piece of code for finding the longest of two given strings.
