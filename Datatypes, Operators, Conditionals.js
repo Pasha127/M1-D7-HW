@@ -73,9 +73,7 @@ console.log(name2.toLowerCase() === name1.toLocaleLowerCase());
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 
-
-let x = 9;
-
+let x=9;
 
 switch(x){
     case 0:
@@ -121,6 +119,7 @@ switch(x){
     default:
         console.log("invalid");
 }
+
 
 
 /* EXERCISE 9

@@ -52,13 +52,23 @@ console.log("There "+ "are", exercise3Var, "strings in this log.");
 let exFour1 = 3;
 let exFour2 = 2;
 let exFour3 = 1;
+let newArray =[];
+let generatedArray=[];
+//input where it adds to array until done
+newArray=[exFour1,exFour2,exFour3];
+let arrayLength= newArray.length;
+for(i=arrayLength; i>0; i--){
+    for(j=0; j<=arrayLength; j++)
+        if(newArray.length >=2){
+          if(newArray.indexOf(j)>=newArray.indexOf(j-1)){
+                //splice?
+            }  
+        }
+        
 
-if(exFour1>=exFour2){
-    if(exFour2>= exFour3){
-        console.log(exFour1,exFour2,exFour3);
-    }
-    //to be continued...
 }
+
+
 
 /*EX 5
  Write a piece of code for finding the average of two given integers.
