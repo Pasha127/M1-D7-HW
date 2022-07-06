@@ -49,25 +49,29 @@ console.log("There "+ "are", exercise3Var, "strings in this log.");
  Display the result in the console.
 */
 
-let exFour1 = 3;
-let exFour2 = 2;
-let exFour3 = 1;
-let newArray =[];
-let generatedArray=[];
-//input where it adds to array until done
-newArray=[exFour1,exFour2,exFour3];
-let arrayLength= newArray.length;
-for(i=arrayLength; i>0; i--){
-    for(j=0; j<=arrayLength; j++)
-        if(newArray.length >=2){
-          if(newArray.indexOf(j)>=newArray.indexOf(j-1)){
-                //splice?
-            }  
-        }
-        
+let testNum01 = 6;
+let testNum02 = 44;
+let testNum03 = 2;
 
+if(testNum01>testNum02 && testNum01>testNum03){
+    if(testNum02>testNum03){
+        console.log(testNum01,testNum02,testNum03);
+               
+    }else{
+        console.log(testNum01,testNum03,testNum02);
+    }
+}else if(testNum01>testNum02 || testNum01>testNum03){
+    if(testNum02>testNum03){
+        console.log(testNum02,testNum01,testNum03);
+               
+    }else{
+        console.log(testNum03,testNum01,testNum02);
+    }
+}else if(testNum02>testNum03){
+    console.log(testNum02,testNum03,testNum01);
+}else{
+    console.log(testNum03,testNum02,testNum01);
 }
-
 
 
 /*EX 5
